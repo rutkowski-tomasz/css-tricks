@@ -1,0 +1,49 @@
+html, body {
+    background: #ecf0f1;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 30px 0 2px 0;
+}
+
+.desc {
+    color: #7f8c8d;
+    margin: 0 0 0 6px;
+}
+
+.container {
+    background: #7f8c8d;
+    overflow: auto;
+}
+
+.item, .item2 {
+    float: left;
+    margin: 1px;
+    width: 98px;
+    line-height: 98px;
+    font-size: 40px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.item {
+    background: #3498db;
+}
+
+.item2 {
+    background: #2980b9;
+}
+
+#c1 .item:nth-child(2),
+#c2 .item:nth-child(odd),
+#c3 .item:nth-child(3n + 2),
+#c4 .item2:nth-of-type(2), /* is better */
+#c5 .item2:nth-child(2) /* is better */ {
+    background: #f1c40f;
+}
