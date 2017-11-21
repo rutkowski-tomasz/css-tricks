@@ -1,20 +1,8 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-
-    <title>Flexbox</title>
-    <meta name="description" content="Flexbox usage">
-    <meta name="author" content="Tomasz Rutkowski">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
 
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <main>
+
         <h1>flex-direction: row</h1>
         <p class="desc">Ignoring item width property (default)</p>
         <div class="container" style="flex-direction: row;">
@@ -219,6 +207,3 @@
         <div class="container" style="height: 300px; align-items: center; justify-content: center;">
             <div class="item">1</div>
         </div>
-    </main>
-</body>
-</html>
