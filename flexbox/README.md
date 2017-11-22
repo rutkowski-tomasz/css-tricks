@@ -1,3 +1,30 @@
+<style>
+h1 {
+    margin: 30px 0 2px 0;
+}
+
+.desc {
+    color: #7f8c8d;
+    margin: 0 0 0 6px;
+}
+
+.container {
+    margin: 20px 0 0 0;
+    background: #3498db;
+    display: flex;
+}
+
+.container .item {
+    background: #2980b9;
+    display: inline-block;
+    width: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #ecf0f1;
+    margin: 5px;
+}
+</style>
 
 <h1>flex-direction: row</h1>
 <p class="desc">Ignoring item width property (default)</p>
