@@ -135,72 +135,72 @@
             <div class="item">1</div>
             <div class="item">2</div>
             <div class="item">3</div>
-</div>
+        </div>
 
-<h1>justify-content: space-between</h1>
-<div class="container" style="justify-content: space-between">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-</div>
+        <h1>justify-content: space-between</h1>
+        <div class="container" style="justify-content: space-between">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
 
-<h1>justify-content: space-around</h1>
-<div class="container" style="justify-content: space-around">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-</div>
+        <h1>justify-content: space-around</h1>
+        <div class="container" style="justify-content: space-around">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
 
-<h1>justify-content: space-evenly</h1>
-<div class="container" style="justify-content: space-evenly">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-</div>
+        <h1>justify-content: space-evenly</h1>
+        <div class="container" style="justify-content: space-evenly">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </div>
 
-<h1>align-self</h1>
-<div class="container" style="height: 300px;">
-    <div class="item" style="align-self: flex-end">flex-end</div>
-    <div class="item" style="align-self: center">center</div>
-    <div class="item" style="align-self: stretch">stretch</div>
-    <div class="item">default</div>
-</div>
+        <h1>align-self</h1>
+        <div class="container" style="height: 300px;">
+            <div class="item" style="align-self: flex-end">flex-end</div>
+            <div class="item" style="align-self: center">center</div>
+            <div class="item" style="align-self: stretch">stretch</div>
+            <div class="item">default</div>
+        </div>
 
-<h1>align-content: center</h1>
-<div class="container" style="height: 300px; align-content: center; flex-wrap: wrap;">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item">4</div>
-    <div class="item">5</div>
-    <div class="item">6</div>
-    <div class="item">7</div>
-</div>
+        <h1>align-content: center</h1>
+        <div class="container" style="height: 300px; align-content: center; flex-wrap: wrap;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </div>
 
-<h1>align-content: flex-end</h1>
-<div class="container" style="height: 300px; align-content: flex-end; flex-wrap: wrap;">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item">4</div>
-    <div class="item">5</div>
-    <div class="item">6</div>
-    <div class="item">7</div>
-</div>
+        <h1>align-content: flex-end</h1>
+        <div class="container" style="height: 300px; align-content: flex-end; flex-wrap: wrap;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </div>
 
-<h1>align-items: center</h1>
-<div class="container" style="height: 300px; align-items: center; flex-wrap: wrap;">
-    <div class="item">1</div>
-    <div class="item">2</div>
-    <div class="item">3</div>
-    <div class="item">4</div>
-    <div class="item">5</div>
-    <div class="item">6</div>
-    <div class="item">7</div>
-</div>
+        <h1>align-items: center</h1>
+        <div class="container" style="height: 300px; align-items: center; flex-wrap: wrap;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+        </div>
 
-<h1>Centering item</h1>
-<div class="container" style="height: 300px; align-items: center; justify-content: center;">
-    <div class="item">1</div>
-</div>
+        <h1>Centering item</h1>
+        <div class="container" style="height: 300px; align-items: center; justify-content: center;">
+            <div class="item">1</div>
+        </div>
 </html>
