@@ -1,6 +1,11 @@
+:root {
+    --brand-color: #3498db;
+}
 
+  
 body {
     background: rgb(204, 204, 204);
+    font-family: 'Montserrat', sans-serif;
 }
 
 page {
@@ -9,6 +14,7 @@ page {
     margin: 0 auto;
     margin-bottom: 0.5cm;
     box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+    overflow: auto;
 }
 
 page[size="A4"] {
@@ -22,4 +28,48 @@ page[size="A4"] {
         margin: 0;
         box-shadow: 0;
     }
+}
+
+/* Sections */
+section {
+    margin: 0.4cm;
+    border: 1px solid #ecf0f1;
+    border-radius: 4px;
+    position: relative;
+}
+
+section#me {
+    height: 7cm;
+    color: #eeeeee;
+}
+
+section#me img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 7cm;
+}
+
+section#me .details {
+    background: var(--brand-color);
+    height: 100%;
+    width: 13.5cm;
+}
+
+section#me .triangle-top {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 13cm;
+    border-top: 4.5cm solid var(--brand-color);
+    border-right: 0.3cm solid transparent;
+}
+
+section#me .triangle-bottom {
+    position: absolute;
+    z-index: 2;
+    top: 2.5cm;
+    left: 13cm;
+    border-bottom: 4.5cm solid var(--brand-color);
+    border-right: 0.5cm solid transparent;
 }
