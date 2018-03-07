@@ -1,0 +1,121 @@
+:root {
+    --lang-chart-color: #2ecc71;
+    --lang-chart-inactive-color: #e1e1e1;
+    --lang-chart-desc-color: #717171;
+}
+
+.donut-chart {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.donut-chart .slice {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.donut-chart .chart-center {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.donut-chart .chart-center span {
+    display: block;
+    text-align: center;
+}
+
+/* Language charts */
+
+.donut-chart.language {
+    width: 4cm;
+    height: 4cm;
+    background: var(--lang-chart-inactive-color);
+}
+
+.donut-chart.language.polish .slice.one {
+    clip: rect(0 4cm 2cm 0);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background: var(--lang-chart-color);
+}
+
+.donut-chart.language.polish .slice.two {
+    clip: rect(0 2cm 4cm 0);
+    -webkit-transform: rotate(342deg);
+    transform: rotate(342deg);
+    background: var(--lang-chart-color);
+}
+
+.donut-chart.language.english .slice.one {
+    clip: rect(0 4cm 2cm 0);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    background: var(--lang-chart-color);
+}
+
+.donut-chart.language.english .slice.two {
+    clip: rect(0 2cm 4cm 0);
+    -webkit-transform: rotate(275deg);
+    transform: rotate(275deg);
+    background: var(--lang-chart-color);
+}
+
+.donut-chart.language.german {
+    background: var(--lang-chart-color);
+}
+.donut-chart.language.german .slice.one {
+    clip: rect(0 4cm 2cm 0);
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+    background: #e1e1e1;
+}
+
+.donut-chart.language.german .slice.two {
+    clip: rect(0 2cm 4cm 0);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    background: #e1e1e1;
+}
+
+.donut-chart.language.french {
+    background: var(--lang-chart-color);
+}
+.donut-chart.language.french .slice.one {
+    clip: rect(0 4cm 2cm 0);
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+    background: #e1e1e1;
+}
+
+.donut-chart.language.french .slice.two {
+    clip: rect(0 2cm 4cm 0);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    background: #e1e1e1;
+}
+
+.donut-chart.language .chart-center {
+    top: 0.2cm;
+    left: 0.2cm;
+    width: 3.6cm;
+    height: 3.6cm;
+    background: #fff;
+    padding: 1.3cm 0;
+}
+
+.donut-chart.language .chart-center div {
+    line-height: 0.5cm;
+    text-align: center;
+}
+
+.donut-chart.language .chart-center .name {
+    font-weight: 500;
+}
+
+.donut-chart.language .chart-center .desc {
+    color: var(--lang-chart-desc-color);
+}
