@@ -37,6 +37,13 @@ page[size="A4"] {
         box-shadow: 0;
         -webkit-print-color-adjust: exact;
     }
+
+    @page  
+    { 
+        size: auto;
+        margin: 0;  
+    } 
+    
 }
 
 /* Sections */
@@ -320,17 +327,30 @@ section#other-skills .legend .level::before {
 }
 
 /* Interests section */
+section#interests {
+    float: left;
+    width: 65%;
+}
 section#interests .interest {
     float: left;
     width: 25%;
 }
 section#interests .interest img {
-    width: 100%;
-    padding: 0 1.5cm;
-    margin-bottom: 0.2cm;
+    width: 2cm;
+    display: block;
+    margin: 0 auto 0.2cm;
 }
 section#interests .interest .value {
     text-align: center;
     font-size: 9pt;
     margin-bottom: 0.1cm;
+}
+/* About me section */
+section#aboutme {
+    float: left;
+    width: 35%;
+}
+
+section#aboutme .content {
+    padding-left: 0.2cm;
 }
