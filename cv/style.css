@@ -318,3 +318,19 @@ section#other-skills .legend .level::before {
     border-top: 2px solid red;
     vertical-align: middle;
 }
+
+/* Interests section */
+section#interests .interest {
+    float: left;
+    width: 25%;
+}
+section#interests .interest img {
+    width: 100%;
+    padding: 0 1.5cm;
+    margin-bottom: 0.2cm;
+}
+section#interests .interest .value {
+    text-align: center;
+    font-size: 9pt;
+    margin-bottom: 0.1cm;
+}
