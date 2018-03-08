@@ -1,5 +1,5 @@
 :root {
-    --brand-color: #3498db;
+    --brand-color: #e1e1e1;
     --text-gray: #95a5a6;
 }
 
@@ -55,8 +55,9 @@ section .title {
 }
 
 section#me {
-    height: 7cm;
-    color: #eeeeee;
+    height: 9cm;
+    padding: 0;
+    margin: 0.4cm;
 }
 
 section#me > img {
@@ -71,26 +72,39 @@ section#me .details {
     height: 100%;
     width: 13.5cm;
     padding: 0.5cm;
+    float: left;
 }
-
+section#me .details .contact {
+    width: 100%;
+    float: left;
+}
 section#me .details .name {
     font-size: 12pt;
     font-weight: 500;
     text-transform: uppercase;
-    margin-bottom: 0.5cm;
+    margin-bottom: 1cm;
 }
 
 section#me .details .detail {
     line-height: 0.6cm;
-    margin-bottom: 0.1cm;
+    margin-bottom: 0.15cm;
     margin-left: 0.2cm;
     font-size: 10pt;
+}
+section#me .details .detail .caption {
+    float: left;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 section#me .details .detail > img {
     width: 0.6cm;
     margin-right: 0.2cm;
+    float: left;
 }
-
+section#me .details .detail .value {
+    clear: both;
+    padding-left: 0.7cm;
+}
 section#me .triangle {
     position: absolute;
     z-index: 2;
@@ -99,26 +113,38 @@ section#me .triangle {
     border-top: 7cm solid var(--brand-color);
     border-right: 0.8cm solid transparent;
 }
+section#me .underimg {
+    position: absolute;
+    right: 0;
+    top: 7cm;
+    height: 2cm;
+    background: #e1e1e1; 
+    line-height: 0.6cm;
+    font-size: 9pt;
+    text-align: right;
+    width: 7cm;
+    color: #555;
+}
 
 section#me .links {
-    position: absolute;
-    bottom: 0.2cm;
     padding-left: 0.3cm;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 section#me .links .link {
-    margin-bottom: 0.1cm;
+    margin: 0.2cm 0;
 }
 
 section#me .links img {
     width: 0.6cm;
-    margin-right: 0.2cm;
-    filter: grayscale(100%);
+    margin: 0 0.2cm;
 }
 
 section#me .links .link a {
     line-height: 0.6cm;
-    color: #eeeeee;
+    color: #333333;
 }
 
 /* Education & experience */
