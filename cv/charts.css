@@ -31,34 +31,34 @@
 /* Language charts */
 
 .donut-chart.language {
-    width: 4cm;
-    height: 4cm;
+    width: 2.5cm;
+    height: 2.5cm;
     background: var(--lang-chart-inactive-color);
 }
 
 .donut-chart.language.polish .slice.one {
-    clip: rect(0 4cm 2cm 0);
+    clip: rect(0 2.5cm 1.25cm 0);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     background: var(--lang-chart-color);
 }
 
 .donut-chart.language.polish .slice.two {
-    clip: rect(0 2cm 4cm 0);
+    clip: rect(0 1.25cm 2.5cm 0);
     -webkit-transform: rotate(342deg);
     transform: rotate(342deg);
     background: var(--lang-chart-color);
 }
 
 .donut-chart.language.english .slice.one {
-    clip: rect(0 4cm 2cm 0);
+    clip: rect(0 2.5cm 1.25cm 0);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     background: var(--lang-chart-color);
 }
 
 .donut-chart.language.english .slice.two {
-    clip: rect(0 2cm 4cm 0);
+    clip: rect(0 1.25cm 2.5cm 0);
     -webkit-transform: rotate(275deg);
     transform: rotate(275deg);
     background: var(--lang-chart-color);
@@ -68,14 +68,14 @@
     background: var(--lang-chart-color);
 }
 .donut-chart.language.german .slice.one {
-    clip: rect(0 4cm 2cm 0);
+    clip: rect(0 2.5cm 1.25cm 0);
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
     background: #e1e1e1;
 }
 
 .donut-chart.language.german .slice.two {
-    clip: rect(0 2cm 4cm 0);
+    clip: rect(0 1.25cm 2.5cm 0);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     background: #e1e1e1;
@@ -85,14 +85,14 @@
     background: var(--lang-chart-color);
 }
 .donut-chart.language.french .slice.one {
-    clip: rect(0 4cm 2cm 0);
+    clip: rect(0 2.5cm 1.25cm 0);
     -webkit-transform: rotate(144deg);
     transform: rotate(144deg);
     background: #e1e1e1;
 }
 
 .donut-chart.language.french .slice.two {
-    clip: rect(0 2cm 4cm 0);
+    clip: rect(0 1.25cm 2.5cm 0);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     background: #e1e1e1;
@@ -101,10 +101,10 @@
 .donut-chart.language .chart-center {
     top: 0.2cm;
     left: 0.2cm;
-    width: 3.6cm;
-    height: 3.6cm;
+    width: calc(2.5cm - 0.2cm - 0.2cm);
+    height: calc(2.5cm - 0.2cm - 0.2cm);
     background: #fff;
-    padding: 1.3cm 0;
+    padding: 0.65cm 0;
 }
 
 .donut-chart.language .chart-center div {
@@ -118,4 +118,5 @@
 
 .donut-chart.language .chart-center .desc {
     color: var(--lang-chart-desc-color);
+    font-size: 8pt;
 }
