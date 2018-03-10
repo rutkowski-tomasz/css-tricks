@@ -65,17 +65,34 @@ section#me {
     height: 9cm;
     padding: 0;
     margin: 0.4cm;
+    background: var(--brand-color);
 }
 
-section#me > img {
+section#me > .image {
     position: absolute;
     right: 0;
     top: 0;
     height: 7cm;
+    width: 7cm;
+    border-radius: 0 0 4px 0;
 }
-
+section#me > .image .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section#me img {
+    width: 100%;
+}
+section#me .triangle {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: -2px;
+    border-top: 7cm solid var(--brand-color);
+    border-right: 0.8cm solid transparent;
+}
 section#me .details {
-    background: var(--brand-color);
     height: 100%;
     width: 13.5cm;
     padding: 0.5cm;
@@ -112,20 +129,12 @@ section#me .details .detail .value {
     clear: both;
     padding-left: 0.7cm;
 }
-section#me .triangle {
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    left: 13.2cm;
-    border-top: 7cm solid var(--brand-color);
-    border-right: 0.8cm solid transparent;
-}
+
 section#me .underimg {
     position: absolute;
     right: 0;
     top: 7cm;
     height: 2cm;
-    background: #e1e1e1; 
     line-height: 0.6cm;
     font-size: 9pt;
     text-align: right;
