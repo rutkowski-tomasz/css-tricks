@@ -183,7 +183,7 @@ section#me .links .link a {
 .experience-box .dates {
     font-size: 9pt;
     color: var(--text-gray);
-    margin-bottom: 0.2cm;
+    margin-bottom: 0.1cm;
     font-weight: 300;
 }
 
@@ -193,9 +193,11 @@ section#me .links .link a {
 }
 
 .experience-box .desc {
-    margin-top: 0.2cm;
+    margin-top: 0.1cm;
     font-size: 9pt;
     font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+    letter-spacing: 1px;
 }
 
 /* Languages */
@@ -406,6 +408,7 @@ section#projects .projects .row .project-name .name {
 }
 section#projects .projects .row .project-name .date {
     font-size: 9pt;
+    color: rgba(0, 0, 0, 0.9);
 }
 section#projects .projects .row .project-name .comment {
     font-size: 9pt;
