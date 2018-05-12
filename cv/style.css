@@ -28,6 +28,7 @@ page {
 page[size="A4"] {
     width: 21cm;
     height: 29.7cm;
+    position: relative;
 }
 
 @media print {
@@ -479,4 +480,14 @@ section#organizations .organization .details .image > * {
     width: 2cm;
     margin: 0.4cm auto 0.3cm;
     border-radius: 4px;
+}
+
+
+section#confidentialy-clause {
+    position: absolute;
+    bottom: 0;
+    font-size: 8pt;
+    color: var(--text-gray);
+    font-weight: 300;
+    text-align: justify;
 }
