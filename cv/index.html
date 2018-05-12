@@ -24,23 +24,22 @@
                     <div class="phone detail">
                         <img src="icons/phone.png" alt="phone">
                         <div class="caption">Phone</div>
-                        <div class="value">+48 111</div>
+                        <div class="value" data-bind="phone"> </div>
                     </div>
                     <div class="email detail">
                         <img src="icons/email.png" alt="email">
                         <div class="caption">Email</div>
-                        <div class="value">tomejzen@gmail.com</div>
+                        <div class="value" data-bind="email"> </div>
                     </div>
                     <div class="born detail">
                         <img src="icons/calendar.png" alt="calendar">
                         <div class="caption">Born</div>
-                        <div class="value">19.08.1996</div>
+                        <div class="value" data-bind="born"> </div>
                     </div>
                     <div class="address detail">
                         <img src="icons/crossroads.png" alt="crossroads">
                         <div class="caption">Address</div>
-                        <div class="value">aaa
-                            <br>85-308 Bydgoszcz, Poland</div>
+                        <div class="value" data-bind="address"> </div>
                     </div>
                 </div>
 
@@ -217,7 +216,6 @@
                 </div>
             </div>
         </section>
-
     </page>
     <page size="A4">
 
@@ -391,6 +389,9 @@
 
         </section>
     </page>
+
+    <script src="personal-data.js"></script>
+    <script src="bind-data.js"></script>
 </body>
 
 </html>
