@@ -1,0 +1,7 @@
+const personalData = {
+    name: 'Tomasz Rutkowski',
+    phone: '+48 123 456 789',
+    email: 'email@domain.com',
+    born: '01.01.1900',
+    address: 'Street A/B <br>00-000 City, Country'
+};
