@@ -1,401 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tomasz Rutkowski CV</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tomasz Rutkowski CV</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="charts.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext"
+            rel="stylesheet"
+        />
+    </head>
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="charts.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext"
-        rel="stylesheet">
-
-</head>
-
-<body>
-    <page size="A4">
-        <!-- Me section -->
-        <section id="me">
-            <div class="details">
-                <div class="contact">
-                    <div class="name">Tomasz Rutkowski</div>
-                    <div class="phone detail">
-                        <img src="icons/phone.png" alt="phone">
-                        <div class="caption">Phone</div>
-                        <div class="value" data-bind="phone"> </div>
+    <body>
+        <page size="A4">
+            <!-- Me section -->
+            <section id="me">
+                <div class="details">
+                    <div class="contact">
+                        <div class="name">Tomasz Rutkowski</div>
+                        <div class="phone detail">
+                            <img src="icons/phone.png" alt="phone" />
+                            <div class="caption">Phone</div>
+                            <div class="value" data-bind="phone"></div>
+                        </div>
+                        <div class="email detail">
+                            <img src="icons/email.png" alt="email" />
+                            <div class="caption">Email</div>
+                            <div class="value" data-bind="email"></div>
+                        </div>
+                        <div class="born detail">
+                            <img src="icons/calendar.png" alt="calendar" />
+                            <div class="caption">Born</div>
+                            <div class="value" data-bind="born"></div>
+                        </div>
+                        <div class="address detail">
+                            <img src="icons/crossroads.png" alt="crossroads" />
+                            <div class="caption">Address</div>
+                            <div class="value" data-bind="address"></div>
+                        </div>
                     </div>
-                    <div class="email detail">
-                        <img src="icons/email.png" alt="email">
-                        <div class="caption">Email</div>
-                        <div class="value" data-bind="email"> </div>
-                    </div>
-                    <div class="born detail">
-                        <img src="icons/calendar.png" alt="calendar">
-                        <div class="caption">Born</div>
-                        <div class="value" data-bind="born"> </div>
-                    </div>
-                    <div class="address detail">
-                        <img src="icons/crossroads.png" alt="crossroads">
-                        <div class="caption">Address</div>
-                        <div class="value" data-bind="address"> </div>
-                    </div>
-                </div>
 
-            </div>
-            <div class="image">
-                <div class="image-wrapper">
-                    <div class="triangle"></div>
-                    <img src="me.jpg" alt="me">
-                </div>
-            </div>
-            <div class="underimg">
-                <div class="links">
-                    <div class="link">
-                        <a href="https://www.linkedin.com/in/rutomek/">linkedin.com/in/rutomek/</a>
-                        <img src="icons/linkedin.png" alt="linkedin">
-                    </div>
-                    <div class="link">
-                        <a href="https://github.com/tomejzen/">github.com/tomejzen/</a>
-                        <img src="icons/github.png" alt="github">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Experience section -->
-        <section id="experience">
-            <div class="title">Education and Experience</div>
-
-            <div class="experience-boxes-container">
-                <div class="experience-box">
-                    <div class="dates">10/2015 – present</div>
-                    <div class="name">Gdańsk University of Technology</div>
-                    <div class="desc">Computer Science (6th semester)</div>
-                </div>
-                <div class="experience-box">
-                    <div class="dates">07/2017 – 09/2017</div>
-                    <div class="name">C# Internship at Asseco Poland S.A.</div>
-                    <div class="desc">Developing WinForms applications, SQL databases</div>
-                </div>
-                <div class="experience-box no-margin">
-                    <div class="dates">09/2012 – 05/2015</div>
-                    <div class="name">IV High School in Bydgoszcz</div>
-                    <div class="desc">Class of Mathematics and Physics</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Technologies section -->
-        <section id="technologies">
-            <div class="title">Programming Languages / Technologies</div>
-
-            <div class="tech php">
-                <div class="label">PHP</div>
-                <div class="meter">
-                    <div class="value" style="width: 90%"></div>
-                    <div class="comment">advanced (specifically Laravel framework)</div>
-                </div>
-            </div>
-
-            <div class="tech csharp">
-                <div class="label">C#</div>
-                <div class="meter">
-                    <div class="value" style="width: 80%"></div>
-                    <div class="comment">upper intermediate</div>
-                </div>
-            </div>
-
-            <div class="tech python">
-                <div class="label">Python</div>
-                <div class="meter">
-                    <div class="value" style="width: 70%"></div>
-                    <div class="comment">intermediate</div>
-                </div>
-            </div>
-
-            <div class="tech java">
-                <div class="label">Java</div>
-                <div class="meter">
-                    <div class="value" style="width: 70%"></div>
-                    <div class="comment">intermediate</div>
-                </div>
-            </div>
-
-            <div class="tech cpp">
-                <div class="label">C++</div>
-                <div class="meter">
-                    <div class="value" style="width: 35%"></div>
-                    <div class="comment">beginner</div>
-                </div>
-            </div>
-        </section>
-
-
-        <section id="languages">
-            <div class="title">Languages</div>
-
-            <div class="language-charts">
-                <div class="language-chart">
-                    <div class="donut-chart language polish">
-                        <div class="slice one"></div>
-                        <div class="slice two"></div>
-                        <div class="chart-center">
-                            <div class="name">polish</div>
-                            <div class="desc">native</div>
+                    <div class="links">
+                        <div class="link">
+                            <img src="icons/linkedin.png" alt="linkedin" />
+                            <a href="https://www.linkedin.com/in/rutomek/">/in/rutomek</a>
+                        </div>
+                        <div class="link">
+                            <img src="icons/github.png" alt="github" />
+                            <a href="https://github.com/tomejzen/">/tomejzen</a>
                         </div>
                     </div>
                 </div>
+                <div class="image">
+                    <div class="image-wrapper">
+                        <div class="triangle"></div>
+                        <img src="me.jpg" alt="me" />
+                    </div>
+                </div>
+            </section>
 
-                <div class="language-chart">
-                    <div class="donut-chart language english">
-                        <div class="slice one"></div>
-                        <div class="slice two"></div>
-                        <div class="chart-center">
-                            <div class="name">english</div>
-                            <div class="desc">intermediate</div>
+            <!-- Experience section -->
+            <section id="experience">
+                <div class="title">Education and Experience</div>
+
+                <div class="experience-boxes-container">
+                    <div class="experience-box">
+                        <div class="dates">2019</div>
+                        <div class="name">Co-founder at Navysol</div>
+                        <div class="desc">
+                            Invoice digization project consisting of .NET Core, Angular, Python
+                            components hosted in the AWS cloud.
+                        </div>
+                    </div>
+                    <div class="experience-box">
+                        <div class="dates">2018 - 2019</div>
+                        <div class="name">Fullstack developer at IHS Markit</div>
+                        <div class="desc">Developing web applications based on C# and Angular</div>
+                    </div>
+                    <div class="experience-box">
+                        <div class="dates">2015 – 2019</div>
+                        <div class="name">Gdańsk University of Technology</div>
+                        <div class="desc">Computer Science (Bachelor of Engineering)</div>
+                    </div>
+                    <div class="experience-box">
+                        <div class="dates">2017</div>
+                        <div class="name">C# Internship at Asseco Poland S.A.</div>
+                        <div class="desc">Developing WinForms applications, SQL databases</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technologies section -->
+            <section id="technologies">
+                <div class="title">Programming Languages / Technologies</div>
+
+                <div class="tech first">
+                    <div class="label">JS / TS</div>
+                    <div class="meter">
+                        <div class="value" style="width: 90%"></div>
+                        <div class="comment">advanced</div>
+                    </div>
+                </div>
+
+                <div class="tech second">
+                    <div class="label">C#</div>
+                    <div class="meter">
+                        <div class="value" style="width: 90%"></div>
+                        <div class="comment">advanced</div>
+                    </div>
+                </div>
+
+                <div class="tech third">
+                    <div class="label">PHP</div>
+                    <div class="meter">
+                        <div class="value" style="width: 75%"></div>
+                        <div class="comment">upper intermediate</div>
+                    </div>
+                </div>
+
+                <div class="tech fourth">
+                    <div class="label">Python</div>
+                    <div class="meter">
+                        <div class="value" style="width: 45%"></div>
+                        <div class="comment">intermediate</div>
+                    </div>
+                </div>
+
+                <div class="tech fifth">
+                    <div class="label">Java</div>
+                    <div class="meter">
+                        <div class="value" style="width: 20%"></div>
+                        <div class="comment">basic</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="languages">
+                <div class="title">Languages</div>
+
+                <div class="language-charts">
+                    <div class="language-chart">
+                        <div class="donut-chart language polish">
+                            <div class="slice one"></div>
+                            <div class="slice two"></div>
+                            <div class="chart-center">
+                                <div class="name">polish</div>
+                                <div class="desc">native</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="language-chart">
+                        <div class="donut-chart language english">
+                            <div class="slice one"></div>
+                            <div class="slice two"></div>
+                            <div class="chart-center">
+                                <div class="name">english</div>
+                                <div class="desc">intermediate</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="language-chart">
+                        <div class="donut-chart language german">
+                            <div class="slice one"></div>
+                            <div class="slice two"></div>
+                            <div class="chart-center">
+                                <div class="name">german</div>
+                                <div class="desc">basic</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="language-chart">
+                        <div class="donut-chart language french">
+                            <div class="slice one"></div>
+                            <div class="slice two"></div>
+                            <div class="chart-center">
+                                <div class="name">french</div>
+                                <div class="desc">basic</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="language-chart">
-                    <div class="donut-chart language german">
-                        <div class="slice one"></div>
-                        <div class="slice two"></div>
-                        <div class="chart-center">
-                            <div class="name">german</div>
-                            <div class="desc">basic</div>
+            <!-- Other skills section -->
+            <section id="other-skills">
+                <div class="title">Other skills</div>
+
+                <div class="skills">
+                    <div class="skill advanced">.NET Core</div>
+                    <div class="skill advanced">HTML5</div>
+                    <div class="skill advanced">CSS3</div>
+                    <div class="skill advanced">SCSS</div>
+                    <div class="skill advanced">Docker</div>
+                    <div class="skill advanced">Angular</div>
+                    <div class="skill intermediate">SQL</div>
+                    <div class="skill intermediate">Git</div>
+                    <div class="skill intermediate">CI / CD</div>
+                    <div class="skill intermediate">Laravel</div>
+                    <div class="skill beginner">WPF</div>
+                    <div class="skill beginner">AWS</div>
+                    <div class="skill beginner">Project management</div>
+                    <div class="skill beginner">Figma</div>
+                </div>
+
+                <div class="legend">
+                    <div class="level beginner">
+                        Beginner
+                    </div>
+                    <div class="level intermediate">
+                        Intermediate
+                    </div>
+                    <div class="level advanced">
+                        Advanced
+                    </div>
+                </div>
+            </section>
+
+            <section id="confidentialy-clause">
+                I hereby give consent for my personal data included in my application to be
+                processed for the purposes of the recruitment process under the Personal Data
+                Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item
+                922 as amended.
+            </section>
+        </page>
+        <page size="A4">
+            <!-- Other skills section -->
+            <section>
+                <div class="title">Projects</div>
+
+                <div id="timeline">
+                    <div class="current-line"></div>
+                    <div class="line"></div>
+                    <div class="row first">
+                        <div class="project-name">Scan and Pay</div>
+                        <div class="project-desc">
+                            Solution enabling automatic invoice key features recognition like
+                            account number, seller name, prices from scans and photos. Project
+                            concept presented by Navysol team at Asseco CodePlay Hackathon 2018 won
+                            the first prize. After that sucessfully passed 3 month incubation
+                            process and raised funding for acceleration period. Developed from
+                            scratch application consisting of .NET Core, Angular and Python
+                            components. Designed full CI/CD process based on dockerized components
+                            embedded in the AWS cloud.
                         </div>
                     </div>
-                </div>
-
-                <div class="language-chart">
-                    <div class="donut-chart language french">
-                        <div class="slice one"></div>
-                        <div class="slice two"></div>
-                        <div class="chart-center">
-                            <div class="name">french</div>
-                            <div class="desc">basic</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Other skills section -->
-        <section id="other-skills">
-            <div class="title">Other skills</div>
-
-            <div class="skills">
-                <div class="skill advanced">Javascript</div>
-                <div class="skill advanced">JQuery</div>
-                <div class="skill advanced">HTML5</div>
-                <div class="skill advanced">CSS3</div>
-                <div class="skill advanced">SASS</div>
-                <div class="skill intermediate">SQL</div>
-                <div class="skill intermediate">Git</div>
-                <div class="skill intermediate">SVN</div>
-                <div class="skill intermediate">WinForms</div>
-                <div class="skill beginner">Angular</div>
-                <div class="skill beginner">Django</div>
-                <div class="skill beginner">WPF</div>
-                <div class="skill beginner">ASP.NET</div>
-            </div>
-
-            <div class="legend">
-                <div class="level beginner">
-                    Beginner
-                </div>
-                <div class="level intermediate">
-                    Intermediate
-                </div>
-                <div class="level advanced">
-                    Advanced
-                </div>
-            </div>
-        </section>
-        
-        <section id="confidentialy-clause">
-            I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.
-        </section>
-    </page>
-    <page size="A4">
-
-        <!-- Other skills section -->
-        <section id="projects">
-            <div class="title">Projects</div>
-
-            <div class="projects">
-                <div class="header">
-                    <div class="caption project-name">
-                        Project
-                    </div>
-                    <div class="caption project-desc">
-                        Specification of work
-                    </div>
-                </div>
-                <div class="content">
                     <div class="row">
-                        <div class="project-name">
-                            <div class="name">HR Bot</div>
-                            <div class="date">2018</div>
+                        <div class="project-name">gerlang.pl</div>
+                        <div class="project-desc">
+                            Website for Pomerianian translation agency and language school called
+                            Gerlang.
                         </div>
-                        <div class="project-desc">An inteligent bot capable of talking with employees inside company intranet. Supports HR department
-                            to answer basic questions, realize simple requests i.e. booking room for meeting, taking leave.
-                            Backend written in python (flask), front - cordova crossplatform application.</div>
                     </div>
-                    <div class="spacer spacer1"></div>
-
-                    <div class="row">
-                        <div class="project-name">
-                            <div class="name">PharmaGO</div>
-                            <div class="date">2017</div>
-                        </div>
-                        <div class="project-desc">Project created during Sii Let’s Code Hackathon by all of the NavySol members. Medicines delivery
-                            service consisting of web page. Back-end written in PHP (Laravel based).</div>
+                    <div class="year-wrapper">
+                        <div class="year first">2019</div>
                     </div>
-                    <div class="spacer spacer2"></div>
-
-                    <div class="row">
-                        <div class="project-name">
-                            <div class="name">MeRento</div>
-                            <div class="date">2017</div>
-                        </div>
-                        <div class="project-desc">Project for Microsoft’s Imagine Cup 2017 made by the NavySol group of which I’m a member. Cross platform
-                            rental home management app. Server based on ASP.NET technology, supported by AngularJS framework
-                            on the client side. With Merento we took 2nd place at Jaskółki Przedsiębiorczości (Business contest
-                            organized by Gdańsk University of Technology).</div>
-                    </div>
-                    <div class="spacer spacer3"></div>
 
                     <div class="row">
-                        <div class="project-name">
-                            <div class="name">miazgakomornik.pl</div>
-                            <div class="date">2016</div>
-                        </div>
-                        <div class="project-desc">Website and administration panel made on commision. Both frontend and backend - based on Laravel
-                            framework.
+                        <div class="project-name">HR Bot</div>
+                        <div class="project-desc">
+                            Chat bot POC capable of talking with employees inside company intranet.
+                            Supports HR department to answer FAQ, realize requests i.e. booking room
+                            for meeting, taking leave. Created based on Wit.ai, Flask and Cordova.
                         </div>
                     </div>
-                    <div class="spacer spacer4"></div>
+                    <div class="year-wrapper">
+                        <div class="year second">2018</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="project-name">MeRento</div>
+                        <div class="project-desc">
+                            Project for Microsoft’s Imagine Cup 2017 made by the NavySol group.
+                            Cross platform rental home management app. With Merento we took 2nd
+                            place at Jaskółki Przedsiębiorczości (Business contest organized by
+                            Gdańsk University of Technology).
+                        </div>
+                    </div>
+
+                    <div class="year-wrapper">
+                        <div class="year third">2017</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="project-name">miazgakomornik.pl</div>
+                        <div class="project-desc">
+                            Website for bailiff auctions with administration panel.
+                            <span class="comment">(not active)</span>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="project-name">
                             <div class="name">walk.pl</div>
-                            <div class="date">2016</div>
                         </div>
-                        <div class="project-desc">Development of additional promoting walk.pl web service, which was used as advertising action provided
-                            to users by newsletter.</div>
+                        <div class="project-desc">
+                            Creation of website advertising walk.pl services, provided to clients by
+                            newsletter.
+                        </div>
                     </div>
-                    <div class="spacer spacer5"></div>
+                    <div class="year-wrapper">
+                        <div class="year fourth">2016</div>
+                    </div>
 
                     <div class="row">
                         <div class="project-name">
                             <div class="name">wloclawek.info.pl</div>
-                            <div class="date">2015</div>
                         </div>
-                        <div class="project-desc">Development of administration panel for wloclawek.info.pl web service. Both frontend and backend
-                            - based on Laravel framework.</div>
+                        <div class="project-desc">
+                            Development of administration panel for wloclawek.info.pl web service.
+                        </div>
                     </div>
-                    <div class="spacer spacer6"></div>
+                    <div class="year-wrapper">
+                        <div class="year fifth">2015</div>
+                    </div>
 
                     <div class="row">
-                        <div class="project-name">
-                            <div class="name">sprzedamdworek.pl</div>
-                            <div class="date">2014
-                                <span class="comment">(not active)</span>
-                            </div>
+                        <div class="project-name">sprzedamdworek.pl</div>
+                        <div class="project-desc">
+                            Website - offer of the manor sale in voivodeship kujawsko-pomorskie
+                            <span class="comment">(not active)</span>
                         </div>
-                        <div class="project-desc">Website created on comission (offer of the manor sale in voivodeship kujawsko-pomorskie). Several
-                            subpages, mainly frontend.</div>
+                    </div>
+                    <div class="year-wrapper">
+                        <div class="year sixth">2014</div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Organizations section -->
-        <section id="organizations">
-            <div class="title">Organizations</div>
+            <!-- Organizations section -->
+            <section id="organizations">
+                <div class="title">Organizations</div>
 
-            <div class="organization">
-                <div class="details">
-                    <div class="name">NavySol</div>
-                    <div class="image">
-                        <img src="icons/navysol.png" alt="Navysol">
+                <div class="organization">
+                    <div class="details">
+                        <div class="image">
+                            <img src="icons/navysol.png" alt="Navysol" />
+                        </div>
+                    </div>
+                    <div class="desc">
+                        NavySol was created as a group of ambitious GUT students for different
+                        coding and business contests. So far we have organized few lectures,
+                        prepared several programming workshops and took part at some contests:
+                        Google Hash Code, ImagineCup, Sii Hackathon, AirHelp Hackathon, Hackathon
+                        Wizja Rozwoju, ImagineHack and others. We took second place at Jaskółki
+                        Przedsiębiorczości at 2017 and got the first prize at Asseco CodePlay
+                        Hackathon 2018. After winning the hackathon we were invited to cooperate
+                        with Asseco to develop Scan and Pay project.
+                        <div class="links">
+                            <a href="http://navysol.com/">navysol.com</a>
+                            <a href="https://www.facebook.com/navysolteam">fb.com/navysolteam</a>
+                        </div>
                     </div>
                 </div>
-                <div class="desc">NavySol is a group of students, which was founded for different coding contests. We are a group of highly
-                    motivated students, who aim more than basic school projects. We have already taken part in several contest:
-                    Hash Code, ImagineCup, Jaskółki Przedsiębiorczości and hackathons: Sii Hackathon, AirHelp Hackathon,
-                    ImagineHack.
-                    <div class="links">
-                        <a href="http://navysol.com/">navysol.com</a>
-                        <a href="https://www.facebook.com/navysolteam">fb.com/navysolteam</a>
+                <div class="organization">
+                    <div class="details">
+                        <div class="image">
+                            <img src="icons/netpg.png" alt=".NET Science Club" />
+                        </div>
+                    </div>
+                    <div class="desc">
+                        I had been active member of .NET Science Club at GUT. From the beginning of
+                        the studies I have been attending meetings and lectures of our club. I was
+                        responsible for leading workshop ‘Basics of programming in JavaScript’ for
+                        high school students.
+                        <div class="links">
+                            <a href="https://github.com/tomejzen/js-warsztaty-65eti"
+                                >github.com/tomejzen/js-warsztaty-65eti</a
+                            >
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="organization">
-                <div class="details">
-                    <div class="name">.NET Science Club</div>
-                    <div class="image">
-                        <img src="icons/netpg.png" alt=".NET Science Club">
-                    </div>
+            </section>
+
+            <!-- about me section -->
+            <section id="aboutme">
+                <div class="title">About me</div>
+
+                <div class="content">
+                    I’m an ambitious, responsible and precise person. I’m open to new challenges and
+                    I learn quickly. Teamwork is my good quality, but I’m also capable of fulfilling
+                    tasks on my own.
                 </div>
-                <div class="desc"> I had been active member of .Net Science Club at Gdańsk University of Technology. From the beginning of the
-                    studies I have been attending meetings and lectures of our club. I was responsible for leading workshop
-                    ‘Basics of programming in JavaScript’ for high school students.
-                    <div class="links">
-                        <a href="https://github.com/tomejzen/js-warsztaty-65eti">github.com/tomejzen/js-warsztaty-65eti</a>
-                    </div>
+            </section>
+
+            <!-- about me section -->
+            <section id="interests">
+                <div class="title">Interests</div>
+
+                <div class="interest">
+                    <img src="icons/travel.png" alt="travel" />
+                    <div class="value">Travel</div>
                 </div>
-            </div>
 
-        </section>
+                <div class="interest">
+                    <img src="icons/sport.png" alt="sport" />
+                    <div class="value">Volleyball</div>
+                    <div class="value">Esport</div>
+                </div>
 
-        <!-- about me section -->
-        <section id="aboutme">
-            <div class="title">About me</div>
+                <div class="interest">
+                    <img src="icons/tv.png" alt="code" />
+                    <div class="value">TV series</div>
+                    <div class="value">Music</div>
+                </div>
 
-            <div class="content">
-                I’m an ambitious, responsible and precise person. I’m open to new challenges and I learn quickly. Teamwork is my good quality,
-                but I’m also capable of fulfilling tasks on my own.
-            </div>
-        </section>
+                <div class="interest">
+                    <img src="icons/code.png" alt="code" />
+                    <div class="value">Hackathons</div>
+                </div>
+            </section>
+        </page>
 
-        <!-- about me section -->
-        <section id="interests">
-            <div class="title">Interests</div>
-
-            <div class="interest">
-                <img src="icons/code.png" alt="code">
-                <div class="value">Programming</div>
-                <div class="value">Hackathons</div>
-            </div>
-
-            <div class="interest">
-                <img src="icons/sport.png" alt="sport">
-                <div class="value">Volleyball</div>
-                <div class="value">Esport</div>
-            </div>
-
-            <div class="interest">
-                <img src="icons/tv.png" alt="code">
-                <div class="value">TV series</div>
-                <div class="value">Music</div>
-            </div>
-
-            <div class="interest">
-                <img src="icons/travel.png" alt="travel">
-                <div class="value">Travel</div>
-            </div>
-
-        </section>
-    </page>
-
-    <script src="personal-data.js"></script>
-    <script src="bind-data.js"></script>
-</body>
-
+        <script src="personal-data.js"></script>
+        <script src="bind-data.js"></script>
+    </body>
 </html>
