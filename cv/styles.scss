@@ -70,23 +70,21 @@ section#me {
     padding: 0;
     margin: 0.4cm;
     background: var(--brand-color);
+    display: flex;
 }
 
 section#me > .image {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 7cm;
-    width: 7cm;
+    height: 100%;
     border-radius: 0 0 4px 0;
+    flex: 0 0 175px;
 }
 section#me > .image .image-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
 }
-section#me img {
-    width: 100%;
+section#me .image img {
+    max-height: 100%;
 }
 section#me .triangle {
     position: absolute;
@@ -98,9 +96,9 @@ section#me .triangle {
 }
 section#me .details {
     height: 100%;
-    width: 13.5cm;
+    flex-grow: 1;
+    // width: 13.5cm;
     padding: 0.5cm;
-    float: left;
 }
 section#me .details .contact {
     width: 100%;
@@ -151,11 +149,10 @@ section#me .links {
     clear: both;
     margin-top: 0.3cm;
     display: flex;
-    padding-right: 0.4cm;
 }
 
 section#me .links .link {
-    margin: 0.2cm 0.4cm 0.2cm 0;
+    margin: 0.2cm 0 0.2cm 0.4cm;
 }
 
 section#me .links img {
