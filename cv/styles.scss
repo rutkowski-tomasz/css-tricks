@@ -149,6 +149,7 @@ section#me .links {
     clear: both;
     margin-top: 0.3cm;
     display: flex;
+    
 }
 
 section#me .links .link {
@@ -461,10 +462,19 @@ section#organizations .organization .desc {
 section#organizations .organization .links {
     margin-top: 0.3cm;
     text-align: right;
+    display: flex;
+    float: right;
 }
 section#organizations .organization .links a {
     color: #2ecc71;
     display: block;
+    padding: 0 0.4cm;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+
+    &:last-of-type {
+        border-right: none;
+        padding-right: 0;
+    }
 }
 
 section#organizations .organization .details .name {
@@ -513,10 +523,20 @@ section#confidentialy-clause {
         z-index: 0;
         top: $currentLineHeight;
         left: $leftColumnWidth;
-        height: calc(100% - #{$currentLineHeight} - 4px);
+        height: calc(100% - #{$currentLineHeight});
         border-radius: 1px;
         width: 2px;
         background: linear-gradient(to bottom, #2ecc71, #27ae60, #1abc9c, #16a085, #3498db, #2980b9);
+    }
+    .line-start {
+        $size: 0.2cm;
+        position: absolute;
+        left: #{$leftColumnWidth - ($size / 2)};
+        top: calc(100%);
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #2980b9;
     }
 
     .year-wrapper {
